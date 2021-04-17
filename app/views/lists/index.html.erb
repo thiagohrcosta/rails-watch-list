@@ -1,9 +1,28 @@
-<div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://i.pinimg.com/originals/36/bd/7c/36bd7c8bbdd16c2e9bb3ae331f0e47a9.jpg);">
-  <div class="container">
-    <h1>Le Wagon brings <strong>tech skills</strong> to <strong>creative people</strong>!</h1>
-    <p>Change your life and learn to code at one of our campuses around the world.</p>
-    <a class="btn btn-flat" href="#">Apply now</a>
+<div class="banner-container">
+  <div class="banner-nav-bar">
+    <div><h1><i class="fas fa-play"></i>Watch List</h1></div>
+    <div>
+      <ul class="banner-ul">
+        <li>Login</li>
+        <li class="btn-sign">Sign up</li>
+      </ul>
+    </div>
   </div>
+
+  <div class="banner-info">
+    <div>
+      <p class="banner-title">AVENGERS COLLECTION</p>
+      <p class="banner-subtitle">All movies avaiable right now!</p>
+      <div class="btn-infos">
+        <p class="btn-add">Add to list</p>
+        <p class="btn-more-info">More info</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="movie-category">
+  <h1>Movies Category</h1>
 </div>
 
 <div class="container">
@@ -12,8 +31,8 @@
     <% @lists.each do |list| %>
 
       <div class="box-display">
-        <img src="<%= list.image %>" style="width: 100%">
-        <p><%= list.name %></p>
+        <img class="box-image" src="<%= list.image %>">
+        <p class="box-title"><%= list.name %></p>
       </div>
     <% end %>
   </div>
