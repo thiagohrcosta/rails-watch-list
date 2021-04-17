@@ -1,5 +1,20 @@
-<h1>Teste</h1>
+<div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://i.pinimg.com/originals/36/bd/7c/36bd7c8bbdd16c2e9bb3ae331f0e47a9.jpg);">
+  <div class="container">
+    <h1>Le Wagon brings <strong>tech skills</strong> to <strong>creative people</strong>!</h1>
+    <p>Change your life and learn to code at one of our campuses around the world.</p>
+    <a class="btn btn-flat" href="#">Apply now</a>
+  </div>
+</div>
 
-<% @lists.each do |list| %>
-  <%= list.name %>
-<% end %>
+<div class="container">
+
+  <div class="box-flex">
+    <% @lists.each do |list| %>
+
+      <div class="box-display">
+        <img src="<%= list.image %>" style="width: 100%">
+        <p><%= list.name %></p>
+      </div>
+    <% end %>
+  </div>
+</div>
