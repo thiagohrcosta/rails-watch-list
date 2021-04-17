@@ -1,5 +1,5 @@
 class BookmarksController < ApplicationController
-  before_action :find_list_id
+  before_action :find_list_id, only: [:create]
 
   def index
     @bookmarks = Bookmark.all
