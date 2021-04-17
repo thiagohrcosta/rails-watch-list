@@ -1,4 +1,6 @@
-# README
+# Watch List
+
+![main banner](https://github.com/thiagohrcosta/rails-watch-list/blob/master/public/img/movieList.png?raw=true)
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
