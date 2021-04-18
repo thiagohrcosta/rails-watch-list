@@ -1,4 +1,5 @@
 .banner-container{
+  position: relative;
   background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ),  url("https://i.pinimg.com/originals/36/bd/7c/36bd7c8bbdd16c2e9bb3ae331f0e47a9.jpg");
   height: 70vh;
   background-position: center;
@@ -48,7 +49,8 @@
 }
 
 .banner-info{
-  margin-top: 100px;
+  position: absolute;
+  margin-top: 10px;
   padding: 50px;
 }
 
