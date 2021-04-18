@@ -3,3 +3,20 @@
   margin-top: -100px;
   background-color: #fff;
 }
+
+.card-movie img{
+  height: 300px;
+}
+.card-movie{
+  border-radius: 0 20px 20px 0;
+  margin: 10px auto;
+  background-color: #8d8d8d;
+  height: 300px;
+  width: 95%;
+}
+
+.movie-list-title{
+  padding: 30px 0 5px;
+  margin: 20px 0 0;
+  text-align: center;
+}
