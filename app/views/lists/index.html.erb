@@ -32,7 +32,7 @@
 
       <div class="box-display">
         <img class="box-image" src="<%= list.image %>">
-        <p class="box-title"><%= list.name %></p>
+        <p class="box-title"><%= link_to list.name, list_path(list) %></p>
       </div>
     <% end %>
   </div>

@@ -1,3 +1,26 @@
-<%= @list.name %>
+<div class="banner-container">
+  <div class="banner-nav-bar">
+    <div><h1><i class="fas fa-play"></i>Watch List</h1></div>
+    <div>
+      <ul class="banner-ul">
+        <li>Login</li>
+        <li class="btn-sign">Sign up</li>
+      </ul>
+    </div>
+  </div>
+</div>
 
-<%= link_to "Edit", edit_list_path(@list) %>
+
+<div class="container">
+  <div class="movie-box">
+  <%= @list.name %>
+
+  <%= link_to "Edit", edit_list_path(@list) %>
+
+  <h1>teste</h1>
+  <%= @movies.each do |movie| %>
+    <p>movie.title</p>
+  <% end %>
+  </div>
+
+</div>
