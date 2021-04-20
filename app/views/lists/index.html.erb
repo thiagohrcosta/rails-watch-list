@@ -31,13 +31,12 @@
     <% @lists.each do |list| %>
 
       <div class="box-display">
-        <img class="box-image" src="<%= list.image %>">
+        <img class="box-image" src="<%= list.cover %>">
         <p class="box-title"><%= link_to list.name, list_path(list) %></p>
       </div>
     <% end %>
   </div>
 </div>
-
 
 
 <footer class="footer">

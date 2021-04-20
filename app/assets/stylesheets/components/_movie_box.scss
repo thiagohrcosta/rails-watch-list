@@ -20,3 +20,41 @@
   margin: 20px 0 0;
   text-align: center;
 }
+
+.movie-content{
+  border-radius: 20px 20px 0 0;
+  margin-top: -100px;
+  background-color: #fff;
+  padding: 30px;
+}
+
+.banner-change{
+  z-index: -1;
+}
+
+
+.img-border{
+  border-left: 5px solid #FF0079;
+  padding: 5px;
+}
+
+.btn-style{
+  width: 55%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-edit{
+  padding: 5px 35px;
+  border-radius: 10px;
+  background-color: #FF0079;
+  color: #fff;
+
+}
+
+.btn-delete{
+  padding: 5px 35px;
+  border-radius: 10px;
+  background-color: #542e71;
+  color: #fff;
+}
