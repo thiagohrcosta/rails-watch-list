@@ -10,6 +10,8 @@
   margin: 10px;
 }
 
+
+
 .box-display{
   background-color: #fff;
   margin: 10px 0 50px;
@@ -40,4 +42,43 @@
 
 .footer{
   background-color: #fff;
+}
+
+.left-border{
+  margin: 20px 0;
+  border-left: 4px solid #FF0079;
+  padding: 10px;
+}
+
+.img-list{
+  width: 500px;
+  height: 200px;
+
+}
+
+.list-box{
+  background-color:#fff;
+  border-radius: 0 20px 20px 0;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.list-title{
+  padding: 20px 0 0 0;
+  text-align: center;
+}
+
+.click-text-content{
+  margin-left: 70px;
+  width: 70%;
+  text-align: center;
+}
+
+.btn-click{
+  margin-left: 70px;
+  width: 70%;
+  text-align: center;
+  padding: 5px 35px;
+  border-radius: 10px;
+  background-color: #FF0079;
+  color: #fff;
 }

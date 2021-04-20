@@ -27,18 +27,32 @@
 
 <div class="container">
 
-  <div class="box-flex mb-4">
-    <% @lists.each do |list| %>
+<div>
+  <% @lists.each do |list| %>
+  <div class="left-border">
 
-      <div class="box-display">
-        <img class="box-image" src="<%= list.cover %>">
-        <p class="box-title"><%= link_to list.name, list_path(list) %></p>
+    <div>
+      <div class="list-box">
+        <div class="row">
+          <div class="col-lg-6">
+            <img class="img-list" src="<%= list.cover %>">
+          </div>
+          <div class="col-lg-6">
+            <h3 class="list-title"><%= list.name %> List</h3>
+            <p class="click-text-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac interdum tellus. </p>
+            <p class="btn-click">Click to see</p>
+          </div>
+        </div>
       </div>
-    <% end %>
+
+    </div>
   </div>
+  <% end %>
+</div>
+
 </div>
 
 
 <footer class="footer">
-  <h1>Teste</h1>
+
 </footer>
