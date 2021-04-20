@@ -39,7 +39,6 @@
 }
 
 .btn-style{
-  width: 55%;
   display: flex;
   justify-content: space-between;
 }
@@ -56,5 +55,12 @@
   padding: 5px 35px;
   border-radius: 10px;
   background-color: #542e71;
+  color: #fff;
+}
+
+.btn-book{
+  padding: 5px 35px;
+  border-radius: 10px;
+  background-color: #FF0079;
   color: #fff;
 }
