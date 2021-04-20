@@ -22,12 +22,12 @@
 </div>
 
 <div class="movie-category">
-  <p class="category-title">MOVIE LIST</p>
+  <p class="category-title">MY LISTS</p>
 </div>
 
 <div class="container">
 
-<div>
+<div class="lists">
   <% @lists.each do |list| %>
   <div class="left-border">
 
@@ -40,7 +40,10 @@
           <div class="col-lg-6">
             <h3 class="list-title"><%= list.name %> List</h3>
             <p class="click-text-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac interdum tellus. </p>
-            <p class="btn-click">Click to see</p>
+            <span class="click">
+              <%= link_to "See more", list_path(list), class:"btn-click"%>
+            </span>
+
           </div>
         </div>
       </div>
