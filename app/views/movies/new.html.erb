@@ -1,3 +1,25 @@
-<h1>Add new movie</h1>
+<div class="banner-container banner-change">
+  <div class="banner-nav-bar">
+    <div><h1><i class="fas fa-play"></i>Watch List</h1></div>
+    <div>
+      <ul class="banner-ul">
+        <li>Login</li>
+        <li class="btn-sign">Sign up</li>
+      </ul>
+    </div>
+  </div>
+</div>
 
-<%= render 'form', movie: @movie %>
+<div class="container">
+  <div class="new-form left-bg-new">
+    <div class="row ">
+      <div class="col-lg-6">
+      </div>
+      <div class="col-lg-6">
+        <%= render 'form', movie: @movie %>
+      </div>
+    </div>
+  </div>
+
+</div>
+
