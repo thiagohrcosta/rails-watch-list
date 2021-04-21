@@ -32,5 +32,11 @@
 
   </div>
 
+  <div class="movies-grid">
+    <%= @list.movies.each do |movie| %>
+      <img class="img-poster" src="<%= movie.poster_url %>">
+    <% end %>
+  </div>
+
 
 </div>
