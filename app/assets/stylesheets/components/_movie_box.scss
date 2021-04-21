@@ -122,3 +122,35 @@
   color: #fff;
   width: 100%;
 }
+
+
+.movie-display{
+  margin-top: -100px;
+  border-radius: 20px;
+  background-color: #fff;
+}
+
+.img-display-poster{
+  margin-bottom: 40px;
+  width: 100%;
+  margin-left: -15px;
+  border-radius: 20px 0 0 20px;
+}
+
+.movie-display-content{
+  padding: 30px;
+}
+
+.movie-rating{
+  color: #fff;
+  padding: 5px;
+  background-color: #542e71;
+
+
+}
+
+
+.movie-title{
+  font-size: 32px;
+  text-transform: uppercase;
+}

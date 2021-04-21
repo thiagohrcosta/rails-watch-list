@@ -1,3 +1,19 @@
-<%= @movie.title %>
+<%= render 'header' %>
 
-<img src="<%= @movie.poster_url %>" >
+<div class="container">
+  <div class="row movie-display">
+    <div class="col-lg-6">
+      <img class="img-display-poster" src="<%= @movie.poster_url %>" >
+    </div>
+    <div class="col-lg-6 movie-display-content">
+      <p class="movie-title"><%= @movie.title %></p>
+      <p><span class="movie-rating"><%= @movie.rating %></span></p>
+
+        <p>
+          <%= @movie.overview %>
+        </p>
+    </div>
+  </div>
+</div>
+
+
