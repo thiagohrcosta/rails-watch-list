@@ -15,6 +15,8 @@ This project was created with:
  - Simple_form
  - Postgresql
 
+## Movie list
+![enter image description here](https://github.com/thiagohrcosta/rails-watch-list/blob/master/public/img/listContent.png?raw=true)
 ## Show
 ![rshow1](https://github.com/thiagohrcosta/rails-watch-list/blob/master/public/img/movieContent.png?raw=true)
 
@@ -38,40 +40,40 @@ As user you can manipulate all **CRUD** operations like:
 
  **April 17**
 
-     - Project created;
-     - Prepare rails app with external specs;
-     - Adding bootstrap, jquery and popper;
-     - Adding validations on models;
-     - Bookmars controller created;
-     - List controller created;
-     - Adding information to create some seeds;
-     - Editing list controller;
-     - Adding actions on List Controller;
-     - Adding actions on Bookmarks controller;
-     - Basic backend complete;
-     - Code refactor;
-     - Adding CSS to main page;
-     - Adding CSS to Show page;
-     - Movie Controller created;
+   - Project created;
+   - Prepare rails app with external specs;
+   - Adding bootstrap, jquery and popper;
+   - Adding validations on models;
+   - Bookmars controller created;
+   - List controller created;
+   - Adding information to create some seeds;
+   - Editing list controller;
+   - Adding actions on List Controller;
+   - Adding actions on Bookmarks controller;
+   - Basic backend complete;
+   - Code refactor;
+   - Adding CSS to main page;
+   - Adding CSS to Show page;
+   - Movie Controller created;
 
 **April 18**
 
-    - Creating new page to add new bookmark;
+   - Creating new page to add new bookmark;
 
 
 **April 20**
 
-     - Convert the project o use postgresql;
-     - Dotenv added - to protect data;
-     - Cloudinary gem added;
-     - Attached images resources added;
-     - Adding relashionship - has_on_attached to list model;
-     - Adding attached image to list_controller params and _form;
-     - CSS fixes;
-     - Heroku deploy;
-     - CSS fix for main and show pages;
-     - Route to add new movie created;
-     - Insert buttons to add a new movie and a new list
+   - Convert the project o use postgresql;
+   - Dotenv added - to protect data;
+   - Cloudinary gem added;
+   - Attached images resources added;
+   - Adding relashionship - has_on_attached to list model;
+   - Adding attached image to list_controller params and _form;
+   - CSS fixes;
+   - Heroku deploy;
+   - CSS fix for main and show pages;
+   - Route to add new movie created;
+   - Insert buttons to add a new movie and a new list.
 
 
 
