@@ -36,7 +36,9 @@
       <div class="list-box">
         <div class="row">
           <div class="col-lg-6">
-            <img class="img-list" src="<%= list.cover %>">
+            <%= cl_image_tag list.photo.key, crop: :fill, class: 'img-list' %>
+<!--
+            <img class="img-list" src="<%= list.cover %>"> -->
           </div>
           <div class="col-lg-6">
             <h3 class="list-title"><%= list.name %> List</h3>
