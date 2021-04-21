@@ -24,6 +24,7 @@
       <% @list.movies.each do |movie| %>
       <div>
         <img class="img-poster" src="<%= movie.poster_url %>">
+        <%= link_to movie.title, movie_path(movie) %>
       </div>
       <% end %>
     </div>
