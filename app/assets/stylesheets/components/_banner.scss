@@ -1,7 +1,7 @@
 .banner-container{
   position: relative;
   background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ),  url("https://i.pinimg.com/originals/36/bd/7c/36bd7c8bbdd16c2e9bb3ae331f0e47a9.jpg");
-  height: 70vh;
+  height: 80vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -72,6 +72,11 @@
     background-color: #FF0079;
   }
 
+  .btn-add a{
+    color: #fff;
+    text-decoration: none;
+  }
+
   .btn-more-info{
     padding: 5px 20px;
     width: 180px;
@@ -92,7 +97,7 @@
 
   .category-title{
     padding: 10px;
-    font-size: 28px;
+    font-size: 22px;
     font-weight: 700;
   }
 }
