@@ -85,7 +85,6 @@
 
 
 .new-form{
-  padding: 40px;
   background-color: #fff;
   border-radius: 20px;
   width: 720px;
@@ -95,6 +94,19 @@
 }
 
 .left-bg-new{
-  background-image:  linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ),  url("https://cinemaedebate.files.wordpress.com/2016/02/rocky-balboa-especial.jpg");
+  background-image: url("https://img.elo7.com.br/product/zoom/2163028/poster-do-filme-mulher-maravilha-50cm-x-70cm-poster.jpg");
   background-size: cover;
+  border-radius: 20px 0 0 20px;
+}
+
+.right-bg{
+  border-radius: 20px;
+  padding: 40px;
+  background-color: #fff;
+}
+
+.img-add-new{
+  margin: 0;
+  padding: 0;
+  width: 100%;
 }
