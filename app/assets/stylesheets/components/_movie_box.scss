@@ -65,6 +65,9 @@
   color: #fff;
 }
 
+.box-poster{
+  width: 250px;
+}
 .img-poster{
   width: 250px;
 }
@@ -154,4 +157,10 @@
 .movie-title{
   font-size: 32px;
   text-transform: uppercase;
+}
+
+.movie-path{
+  text-align: center;
+  font-weight: 300;
+  font-size: 18px;
 }

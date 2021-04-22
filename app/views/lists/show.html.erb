@@ -22,9 +22,9 @@
 
     <div class="movies-grid">
       <% @list.movies.each do |movie| %>
-      <div>
+      <div class="box-poster">
         <img class="img-poster" src="<%= movie.poster_url %>">
-        <%= link_to movie.title, movie_path(movie) %>
+        <p class="movie-path"><%= link_to movie.title, movie_path(movie) %></p>
       </div>
       <% end %>
     </div>
