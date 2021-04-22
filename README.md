@@ -80,5 +80,3 @@ As user you can manipulate all **CRUD** operations like:
    - Route to add new movie created;
    - Insert buttons to add a new movie and a new list.
 
-
-
