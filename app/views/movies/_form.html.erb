@@ -1,7 +1,8 @@
 <%= simple_form_for(movie) do |f| %>
   <%= f.input :title %>
+  <%= f.input :rating %>
   <%= f.input :overview %>
   <%= f.input :poster_url %>
-  <%= f.input :rating %>
+  <%= f.input :trailer %>
   <%= f.submit class: 'btn-submit-movie mt-3' %>
 <% end %>
