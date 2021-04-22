@@ -24,8 +24,22 @@
     list-style-type: none;
   }
 
+  .banner-nav-bar{
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+
   .fa-play{
     margin-right: 10px;
+  }
+
+
+
+  .banner-info{
+    position: absolute;
+    margin-top: 10px;
+    padding: 50px;
   }
 
   .banner-title{
@@ -38,21 +52,10 @@
     font-weight: 300;
     margin: 0 0 10px;
     font-size: 28px;
-
   }
 }
 
-.banner-nav-bar{
-  padding: 50px;
-  display: flex;
-  justify-content: space-between;
-}
 
-.banner-info{
-  position: absolute;
-  margin-top: 10px;
-  padding: 50px;
-}
 
 .btn-sign{
   width: 220;
