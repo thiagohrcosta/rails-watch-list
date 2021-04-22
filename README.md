@@ -1,4 +1,5 @@
 
+
 # Watch List
 
 ![main banner](https://github.com/thiagohrcosta/rails-watch-list/blob/master/public/img/movieList.png?raw=true)
@@ -25,6 +26,9 @@ This project was created with:
 
 ## Movie display
 ![enter image description here](https://github.com/thiagohrcosta/rails-watch-list/blob/master/public/img/movieEach.png?raw=true)
+
+## Adding Trailer to Movie
+![enter image description here](https://github.com/thiagohrcosta/rails-watch-list/blob/master/public/img/addingTrailer.png?raw=true)
 
 ## How to run this project
 Download or clone it. . Then run in the main folder the command `rails server`. If needed, run `bundle install` to check if all gems are correctly installed. Then open the project on `localhost:3000/lists`
@@ -91,3 +95,7 @@ As user you can manipulate all **CRUD** operations like:
      - Readme updated with Heroku's link.
      - Main banner height reduce to 70vh - better display on Heroku;
      - Adding footer.
+
+**April 22**
+
+     - Migration created to add Trailer to movies;
