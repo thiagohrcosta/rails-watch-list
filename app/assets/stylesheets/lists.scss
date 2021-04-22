@@ -83,13 +83,21 @@
   text-align: center;
   padding: 5px 35px;
   color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 .click{
+  text-decoration: none;
+  color: #fff;
   padding: 5px;
   background-color: #FF0079;
   border-radius: 0 20px 20px 0;
+}
 
+.click a:hover{
+  color: #fff;
+  text-decoration: none;
 }
 
 .fa-plus-circle{
