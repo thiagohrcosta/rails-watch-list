@@ -20,6 +20,11 @@ This project was created with:
 ## Show
 ![rshow1](https://github.com/thiagohrcosta/rails-watch-list/blob/master/public/img/movieContent.png?raw=true)
 
+## Add new movie
+![enter image description here](https://github.com/thiagohrcosta/rails-watch-list/blob/master/public/img/newMovie.png?raw=true)
+
+## Movie display
+![enter image description here](https://github.com/thiagohrcosta/rails-watch-list/blob/master/public/img/movieEach.png?raw=true)
 
 ## How to run this project
 Download or clone it. . Then run in the main folder the command `rails server`. If needed, run `bundle install` to check if all gems are correctly installed. Then open the project on `localhost:3000/lists`
@@ -76,13 +81,4 @@ As user you can manipulate all **CRUD** operations like:
    - Insert buttons to add a new movie and a new list.
 
 
-**April 21**
-
-   - Add movie - CSS added;
-   - Adding attached image on Home page for each list;
-   - Create new movie - Adding background image;
-   - Using <%= render %> to display the header - clean code concepts;
-   - Movies page - CSS added;
-   - Adding files for future mobile version;
-   - Readme updated with Heroku's link.
 
