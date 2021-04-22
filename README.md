@@ -80,3 +80,14 @@ As user you can manipulate all **CRUD** operations like:
      - Route to add new movie created;
      - Insert buttons to add a new movie and a new list.
 
+**April 21**
+
+     - Add movie - CSS added;
+     - Adding attached image on Home page for each list;
+     - Create new movie - Adding background image;
+     - Using <%= render %> to display the header - clean code concepts;
+     - Movies page - CSS added;
+     - Adding files for future mobile version;
+     - Readme updated with Heroku's link.
+     - Main banner height reduce to 70vh - better display on Heroku;
+     - Adding footer.
