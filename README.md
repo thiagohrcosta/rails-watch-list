@@ -25,7 +25,7 @@ This project was created with:
 Download or clone it. . Then run in the main folder the command `rails server`. If needed, run `bundle install` to check if all gems are correctly installed. Then open the project on `localhost:3000/lists`
 
 ## Heroku version
-You can also check this project running on Heroku.
+You can also check this project running on Heroku. [Click here](https://movienight-watch-list.herokuapp.com/lists).
 
 ## What user can do?
 As user you can manipulate all **CRUD** operations like:
