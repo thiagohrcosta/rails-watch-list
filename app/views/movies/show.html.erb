@@ -6,8 +6,14 @@
       <img class="img-display-poster" src="<%= @movie.poster_url %>" >
     </div>
     <div class="col-lg-6 movie-display-content">
-      <p class="movie-title"><%= @movie.title %></p>
-      <p><span class="movie-rating"><%= @movie.rating %></span></p>
+      <div class="movie-header-content">
+        <p class="movie-title"><%= @movie.title %></p>
+        <p class="btn-movie-edit"><%= link_to "Edit movie", edit_movie_path(@movie) %></p>
+      </div>
+
+      <div>
+        <p><span class="movie-rating"><%= @movie.rating %></span></p>
+      </div>
 
         <p>
           <%= @movie.overview %>

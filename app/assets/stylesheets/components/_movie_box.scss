@@ -95,13 +95,13 @@
 }
 
 .left-bg-new{
-  background-image: url("https://img.elo7.com.br/product/zoom/2163028/poster-do-filme-mulher-maravilha-50cm-x-70cm-poster.jpg");
+  background-image: url("https://i.pinimg.com/originals/0d/13/82/0d1382f7cb1a5ca4a369cfac740b0653.jpg");
   background-size: cover;
   border-radius: 20px 0 0 20px;
 }
 
 .left-bg-list{
-  background-image: url("https://lh3.googleusercontent.com/proxy/v2xiQAI_VnflSzD6bI4dcfkIJajmd6WTTeILnwEfwIZgXVVhDJ8y0x5-CIQAuh_9xHaQTwfrJn_SH22SyVWDXcYVzTK33bhnDJnrgfraGqJdAo3vS2d7LKKChyDpIpaGGBHJYZ6owRQGCFlZBQ");
+  background-image: url("https://i.pinimg.com/originals/0d/13/82/0d1382f7cb1a5ca4a369cfac740b0653.jpg");
   background-size: cover;
   border-radius: 20px 0 0 20px;
 }
@@ -141,6 +141,29 @@
 
 .movie-display-content{
   padding: 30px;
+}
+
+.movie-header-content{
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-movie-edit{
+  border-radius: 10px;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 25px;
+  background-color: #542e71;
+}
+
+.btn-movie-edit a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn-movie-edit a:hover{
+  color: #fff;
+  text-decoration: none;
 }
 
 .movie-rating{
